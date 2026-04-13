@@ -63,6 +63,7 @@
 
 #define TRIUMPH_BUY_SUBTERRAN_DWARF "subterran_dwarf"
 #define TRIUMPH_BUY_FORMIKRAG_KOBOLD "formikrag_kobold"
+#define TRIUMPH_BUY_SHADOW_TIEFLING "shadowling"
 
 // Bought triumph buys category
 #define TRIUMPH_CAT_ACTIVE_DATUMS "BOUGHT"

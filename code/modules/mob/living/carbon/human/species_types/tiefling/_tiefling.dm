@@ -174,6 +174,7 @@
 		"Zanguine" = SKIN_COLOR_ZANGUINE, // - (Dark violet)
 		"Ash" = SKIN_COLOR_ASH, // - (Pale blue)
 		"Arlenneth" = SKIN_COLOR_ARLENNETH, // - (Lavender blue)
+		"Shadow cursed" = SKIN_COLOR_SHADOWLING, //superdark
 	))
 
 	return skin_colors
