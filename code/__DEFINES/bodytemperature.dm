@@ -10,6 +10,7 @@
 #define BODYTEMP_MIN_TEMPERATURE            -10     // Death from cold
 #define BODYTEMP_HEAT_DAMAGE_LIMIT          49
 #define BODYTEMP_COLD_DAMAGE_LIMIT          10
+#define WEAKNESS_TO_FIRE_MULTIPLIER			1.25	// Damage multiplier from the weak_to_fire trait
 
 #define AMBIENT_COMFORT_MIN             18      // Below this, you feel cool
 #define AMBIENT_COMFORT_MAX             26      // Above this, you feel warm

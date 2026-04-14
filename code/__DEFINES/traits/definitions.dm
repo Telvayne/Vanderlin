@@ -126,6 +126,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_NODISMEMBER "dismember_immunity"
 /// Can't get fire stacks (can get DIVINE fire stacks)
 #define TRAIT_NOFIRE "Nonflammable"
+/// Takes additional damage from being on fire
+#define TRAIT_WEAK_TO_FIRE "Extra Flammable"
 /// Can't use guns
 #define TRAIT_NOGUNS "no_guns"
 /// Doesn't use nutrition

@@ -16,8 +16,8 @@
 	id_override = SPEC_ID_TIEFLING
 	desc = "OOOOO so spooky you gonna make her cute?  make sure to make her cute..!"
 
-	inherent_traits = list(TRAIT_NO_REFLECTION, TRAIT_ABOMINATION, TRAIT_ASTRATA_CURSE)
-	 // no reflection for creepy shadowlings.  Can't be pretty.  Can't get healed by divine sources.
+	inherent_traits = list(TRAIT_NO_REFLECTION, TRAIT_ABOMINATION, TRAIT_WEAK_TO_FIRE)
+	 // no reflection for creepy shadowlings.  Can't be pretty.  Takes bonus fire damage according to defines
 
 
 
@@ -42,3 +42,4 @@
 		return FALSE
 
 	return prefs.parent.has_triumph_buy(TRIUMPH_BUY_SHADOW_TIEFLING)
+
