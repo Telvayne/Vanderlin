@@ -23,7 +23,7 @@
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/tiefling/shadowtief
 	statsheet_female = /datum/attribute_holder/sheet/job/species/tiefling/shadowtief
-
+	skin_tone_wording = "burden"
 
 /datum/species/tieberian/shadowtief/get_skin_list()
 	return sortList(list(
@@ -32,6 +32,18 @@
 		"Anathema" = "131313",
 	))
 
+/datum/species/tieberian/shadowtief/get_hairc_list()
+	var/static/list/hair_colors = sortList(list(
+		"black - oil" = "181a1d",
+		"black - cave" = "201616",
+		"black - rogue" = "2b201b",
+		"black - midnight" = "1d1b2b",
+		"black - wine-dark" = "210e0e",
+		"black - ebb" = "151515",
+		"black - flow" = "0b141d",
+	))
+
+	return hair_colors
 
 /datum/species/tieberian/shadowtief/preference_accessible(datum/preferences/prefs)
 	. = ..()
