@@ -14,7 +14,7 @@
 	name = "Shadowling"
 	id = SPEC_ID_TIEFLING_SHADOW
 	id_override = SPEC_ID_TIEFLING
-	desc = "OOOOO so spooky you gonna make her cute?  make sure to make her cute..!"
+	desc = "While tieflings enjoy the benefits of at least looking somewhat human, Shadow Tieflings are cursed to a twisted form."
 
 	inherent_traits = list(TRAIT_NO_REFLECTION, TRAIT_ABOMINATION, TRAIT_WEAK_TO_FIRE)
 	 // no reflection for creepy shadowlings.  Can't be pretty.  Takes bonus fire damage according to defines
